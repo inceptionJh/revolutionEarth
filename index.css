@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+div.space {
+    width: 700px;
+    height: 700px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    box-shadow: 0 0 0 1px black;
+}
+
+img, div#sun, div#earth, div#moon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#sun {
+    width: 200px;
+    height: 200px;
+
+    background-size: 100%;
+    background-image: url(image/sun.png);
+}
+
+div#earth {
+    width: 100px;
+    height: 100px;
+
+    background-size: 100%;
+    background-image: url(image/earth.png);
+}
+
+div#moon {
+    width: 50px;
+    height: 50px;
+    
+    background-image: url(image/moon.png);
+    background-size: 50px 50px;
+}
